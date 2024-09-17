@@ -1,7 +1,7 @@
 {
   "name": "@miozu/js-theme",
-  "description": "Miozu color theme for javascript",
-  "version": "0.0.1",
+  "description": "Miozu color theme exported as a javascript object",
+  "version": "0.0.2",
   "main": "miozu-theme.js",
   "keywords": ["miozu", "color", "theme", "tailwind"],
   "author": "Nicholas Glazer<glazer.nicholas@gmail.com>",
