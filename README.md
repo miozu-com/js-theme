@@ -1,11 +1,11 @@
 # @miozu/js
 
-Miozu color theme exported as js object. 
+Miozu color theme exported as javascript object. 
 
 ## Installation
 
 ```bash
-npm install @miozu/js
+npm install @miozu/js-theme
 ```
 
 ## Usage with tailwind
@@ -13,13 +13,13 @@ npm install @miozu/js
 In your `tailwind.config.js`:
 
 ```javascript
-import { miozu } from '@miozu/js';
+import miozu from '@miozu/js-theme';
 
 export default {
   theme: {
     extend: {
       colors: {
-        ...miozu.colors
+        ...miozu
       }
     }
   }
